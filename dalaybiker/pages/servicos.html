@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça todos os serviços especializados da BikePro: manutenção completa, setup profissional, upgrades técnicos e muito mais.">
+    <title>Serviços Especializados | Dalai Bike oficina especializada</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/553288532432?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Falar no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+            <div class="navbar__logo">
+                <a href="../index.html">
+                    <div class="logo">
+                        <div class="logo__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="7" cy="17" r="3"/>
+                                <circle cx="17" cy="17" r="3"/>
+                                <path d="M5 17H3v-3l3-6h2l2 6v3h-2M14 17h-2V7h2l3 4v6h-3"/>
+                            </svg>
+                        </div>
+                        <span class="logo__text">Dalai<strong>Bike</strong></span>
+                    </div>
+                </a>
+            </div>
+            <button class="navbar__toggle" id="navToggle" aria-label="Menu de navegação" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navbar__menu" id="navMenu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="servicos.html" class="active">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="localizacao.html">Localização</a></li>
+                <li><a href="https://wa.me/553288532432" class="btn btn--primary btn--small" target="_blank">Falar no WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header__content">
+                <span class="page-header__subtitle" data-animate="fade-up">Nossos Serviços</span>
+                <h1 class="page-header__title" data-animate="fade-up" data-delay="100">
+                    Serviços <span class="highlight">Especializados</span>
+                </h1>
+                <p class="page-header__description" data-animate="fade-up" data-delay="200">
+                    Oferecemos soluções completas para manutenção, performance e upgrades técnicos da sua bicicleta.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Services Section -->
+    <section class="services-detail section">
+        <div class="container">
+            <!-- Manutenção Completa -->
+            <article class="service-detail" id="manutencao" data-animate="fade-up">
+                <div class="service-detail__header">
+                    <div class="service-detail__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-detail__title">Manutenção Completa</h2>
+                        <p class="service-detail__subtitle">Revisão técnica profunda e detalhada</p>
+                    </div>
+                </div>
+                <div class="service-detail__content">
+                    <p class="service-detail__description">
+                        Nossa manutenção completa é realizada por mecânicos certificados que avaliam cada componente da sua bicicleta com rigor técnico. Utilizamos equipamentos profissionais de alta precisão para garantir que sua bike volte ao estado ótimo de funcionamento.
+                    </p>
+                    <div class="service-detail__features">
+                        <h3>O que está incluído:</h3>
+                        <ul class="checklist">
+                            <li>Desmontagem completa e limpeza profunda de todos os componentes</li>
+                            <li>Revisão e ajuste de freios (v-brake, disco mecânico ou hidráulico)</li>
+                            <li>Revisão e ajuste de marchas e câmbios (dianteiro e traseiro)</li>
+                            <li>Lubrificação de corrente, cassete e guidão</li>
+                            <li>Verificação e ajuste de torque em todos os parafusos</li>
+                            <li>Inspeção de pneus, aros e raios</li>
+                            <li>Check completo de pedivela, movimento central e cubos</li>
+                            <li>Regulagem de guidão, mesa e selim para ergonomia ideal</li>
+                            <li>Relatório técnico detalhado com recomendações</li>
+                        </ul>
+                    </div>
+                    <div class="service-detail__price">
+                        <span class="price-label">A partir de</span>
+                        <span class="price-value">R$ 150</span>
+                        <span class="price-note">*Valor pode variar conforme complexidade e peças necessárias</span>
+                    </div>
+                    <a href="https://wa.me/553288532432?text=Gostaria%20de%20solicitar%20orçamento%20para%20Manutenção%20Completa" class="btn btn--primary" target="_blank">Solicitar Orçamento</a>
+                </div>
+            </article>
+
+            <!-- Setup Profissional -->
+            <article class="service-detail" id="setup" data-animate="fade-up">
+                <div class="service-detail__header">
+                    <div class="service-detail__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-detail__title">Setup Profissional</h2>
+                        <p class="service-detail__subtitle">Ajuste personalizado para máxima performance</p>
+                    </div>
+                </div>
+                <div class="service-detail__content">
+                    <p class="service-detail__description">
+                        O setup profissional é um ajuste técnico personalizado que considera seu biotipo, estilo de pedal e objetivos. Realizamos medições precisas e ajustes milimétricos para garantir conforto, eficiência e prevenção de lesões.
+                    </p>
+                    <div class="service-detail__features">
+                        <h3>O que está incluído:</h3>
+                        <ul class="checklist">
+                            <li>Bike fit completo: ajuste de altura do selim, recuo, inclinação</li>
+                            <li>Posicionamento ergonômico do guidão e manetes</li>
+                            <li>Ajuste de pressão e configuração de suspensões (MTB)</li>
+                            <li>Calibragem de freios para máxima potência e modulação</li>
+                            <li>Sincronização perfeita de marchas e câmbios</li>
+                            <li>Otimização de transmissão para eficiência energética</li>
+                            <li>Ajuste de pedais e tacos (para clipless)</li>
+                            <li>Avaliação de postura e recomendações de upgrades</li>
+                        </ul>
+                    </div>
+                    <div class="service-detail__price">
+                        <span class="price-label">A partir de</span>
+                        <span class="price-value">R$ 120</span>
+                        <span class="price-note">*Investimento que aumenta performance e previne lesões</span>
+                    </div>
+                    <a href="https://wa.me/553288532432?text=Gostaria%20de%20agendar%20um%20Setup%20Profissional" class="btn btn--primary" target="_blank">Agendar Setup</a>
+                </div>
+            </article>
+
+            <!-- Upgrades Técnicos -->
+            <article class="service-detail" id="upgrades" data-animate="fade-up">
+                <div class="service-detail__header">
+                    <div class="service-detail__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-detail__title">Upgrades Técnicos</h2>
+                        <p class="service-detail__subtitle">Evolução de componentes e performance</p>
+                    </div>
+                </div>
+                <div class="service-detail__content">
+                    <p class="service-detail__description">
+                        Consultoria especializada para modernização e melhoria de componentes. Analisamos sua bike atual e recomendamos upgrades que realmente fazem diferença na performance, durabilidade e experiência de pilotagem.
+                    </p>
+                    <div class="service-detail__features">
+                        <h3>Upgrades populares:</h3>
+                        <ul class="checklist">
+                            <li>Conversão para freios a disco hidráulicos</li>
+                            <li>Upgrade de transmissão (10, 11, 12 velocidades)</li>
+                            <li>Instalação de suspensões de alta performance</li>
+                            <li>Troca de rodas e cubos para maior leveza</li>
+                            <li>Upgrade de guidão, mesa e canote de carbono</li>
+                            <li>Sistemas eletrônicos de troca de marchas</li>
+                            <li>Pedais clipless e sapatos específicos</li>
+                            <li>Consultoria para escolha de componentes premium</li>
+                        </ul>
+                    </div>
+                    <div class="service-detail__note">
+                        <strong>Consultoria Gratuita:</strong> Antes de qualquer upgrade, oferecemos uma análise técnica completa da sua bike e recomendações personalizadas baseadas no seu perfil de uso e orçamento.
+                    </div>
+                    <a href="https://wa.me/553288532432?text=Gostaria%20de%20consultoria%20para%20Upgrades%20Técnicos" class="btn btn--primary" target="_blank">Solicitar Consultoria</a>
+                </div>
+            </article>
+
+            <!-- Reparo de Emergência -->
+            <article class="service-detail" id="emergencia" data-animate="fade-up">
+                <div class="service-detail__header">
+                    <div class="service-detail__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="service-detail__title">Reparo de Emergência</h2>
+                        <p class="service-detail__subtitle">Atendimento rápido para problemas urgentes</p>
+                    </div>
+                </div>
+                <div class="service-detail__content">
+                    <p class="service-detail__description">
+                        Oferecemos atendimento prioritário para reparos de emergência. Se você precisa da sua bike funcionando rapidamente, nossa equipe está preparada para diagnósticos ágeis e soluções eficientes.
+                    </p>
+                    <div class="service-detail__features">
+                        <h3>Problemas que resolvemos:</h3>
+                        <ul class="checklist">
+                            <li>Furos e troca de câmaras</li>
+                            <li>Quebra de corrente</li>
+                            <li>Desajuste severo de freios</li>
+                            <li>Problemas críticos em câmbios</li>
+                            <li>Quebra de raios</li>
+                            <li>Substituição emergencial de cabos</li>
+                            <li>Reparos em suspensões</li>
+                            <li>Qualquer problema que impeça o uso da bike</li>
+                        </ul>
+                    </div>
+                    <div class="service-detail__note">
+                        <strong>Atendimento Rápido:</strong> Diagnóstico em até 30 minutos. Maioria dos reparos concluídos no mesmo dia (sujeito a disponibilidade de peças).
+                    </div>
+                    <a href="https://wa.me/553288532432?text=URGENTE:%20Preciso%20de%20reparo%20de%20emergência" class="btn btn--primary" target="_blank">Solicitar Atendimento Urgente</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="additional-services section section--dark">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Outros Serviços</h2>
+                <p class="section__description">
+                    Oferecemos também serviços especializados adicionais
+                </p>
+            </div>
+            <div class="additional-grid">
+                <div class="additional-card" data-animate="fade-up">
+                    <h3>Limpeza Técnica</h3>
+                    <p>Limpeza profunda com produtos específicos e lubrificação completa</p>
+                    <span class="additional-price">A partir de R$ 50</span>
+                </div>
+                <div class="additional-card" data-animate="fade-up" data-delay="100">
+                    <h3>Centramento de Rodas</h3>
+                    <p>Ajuste preciso de tensão de raios e alinhamento perfeito</p>
+                    <span class="additional-price">A partir de R$ 40</span>
+                </div>
+                <div class="additional-card" data-animate="fade-up" data-delay="200">
+                    <h3>Montagem de Bike Nova</h3>
+                    <p>Montagem completa de bicicleta adquirida em caixa</p>
+                    <span class="additional-price">A partir de R$ 100</span>
+                </div>
+                <div class="additional-card" data-animate="fade-up" data-delay="300">
+                    <h3>Revisão Pré-Evento</h3>
+                    <p>Check-up completo antes de provas e eventos importantes</p>
+                    <span class="additional-price">A partir de R$ 80</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-box__content">
+                    <h2 class="cta-box__title">Não Encontrou o Serviço que Precisa?</h2>
+                    <p class="cta-box__description">
+                        Entre em contato conosco. Temos expertise para resolver qualquer problema técnico da sua bicicleta.
+                    </p>
+                    <div class="cta-box__actions">
+                        <a href="https://wa.me/553288532432?text=Olá!%20Tenho%20uma%20dúvida%20sobre%20serviços" class="btn btn--primary btn--large" target="_blank">
+                            Falar com Especialista
+                        </a>
+                        <a href="contato.html" class="btn btn--secondary btn--large">
+                            Outras Formas de Contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <a href="../index.html">
+                        <div class="logo logo--footer">
+                            <div class="logo__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="7" cy="17" r="3"/>
+                                    <circle cx="17" cy="17" r="3"/>
+                                    <path d="M5 17H3v-3l3-6h2l2 6v3h-2M14 17h-2V7h2l3 4v6h-3"/>
+                                </svg>
+                            </div>
+                            <span class="logo__text">Dalai<strong>Bike</strong></span>
+                        </div>
+                    </a>
+                    <p class="footer__description">
+                        Oficina especializada premium com foco em performance, qualidade e atendimento técnico profissional.
+                    </p>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__title">Navegação</h4>
+                    <ul class="footer__links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="localizacao.html">Como Chegar</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__title">Serviços</h4>
+                    <ul class="footer__links">
+                        <li><a href="servicos.html#manutencao">Manutenção Completa</a></li>
+                        <li><a href="servicos.html#setup">Setup Profissional</a></li>
+                        <li><a href="servicos.html#upgrades">Upgrades Técnicos</a></li>
+                        <li><a href="servicos.html#emergencia">Reparo de Emergência</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h4 class="footer__title">Contato</h4>
+                    <ul class="footer__contact">
+                        <li>
+                            <strong>WhatsApp:</strong><br>
+                            <a href="https://wa.me/553288532432" target="_blank">(32)8853-2432</a>
+                        </li>
+                        <li>
+                            <strong>E-mail:</strong><br>
+                            <a href="mailto:contato@dalaibike.com.br">contato@dalaibike.com.br</a>
+                        </li>
+                        <li>
+                            <strong>Horário:</strong><br>
+                            Seg a Sex: 8h às 18h<br>
+                            Sáb: 8h às 13h
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; Dalai bike - Oficina Especializada. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
