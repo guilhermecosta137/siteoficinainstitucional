@@ -145,8 +145,6 @@ O site pode ser hospedado em qualquer serviço de hosting estático:
 - AWS S3 + CloudFront
 
 
-**Versão**: 1.0.0  
-**Última atualização**: Janeiro 2024
 **Desenvolvedor**: Guilherme
 
 
