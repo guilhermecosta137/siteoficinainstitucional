@@ -1,4 +1,4 @@
-# BikePro - Site Institucional Premium
+# DalaiBike - Site Institucional Premium
 
 Site institucional completo para oficina especializada em bicicletas, desenvolvido com HTML, CSS e JavaScript puro.
 
